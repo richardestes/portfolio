@@ -21,6 +21,7 @@ function ContactPage() {
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
+            title="map"
           ></iframe>
         </div>
         <div className="contact-section">
