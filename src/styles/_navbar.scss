@@ -17,8 +17,11 @@
         width: 70%;
         border-radius: 100%;
         border: 4px solid #2e344e;
-        // margin-bottom: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
+        // margin-bottom: 2rem;
+      }
+      h4 {
+        margin-bottom: 1rem;
       }
     }
 
@@ -61,6 +64,7 @@
       p {
         text-align: center;
         padding: 1rem 0;
+        font-size: 70%;
       }
     }
   }
