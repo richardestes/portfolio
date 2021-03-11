@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Title from "../Components/Title";
 import Categories from "../Components/Categories";
 import MenuItems from "../Components/MenuItems";
-import portfolios from "../Components/allportfolios";
+import portfolios from "../data/allportfolios";
 
 const allCategories = ["All", ...new Set(portfolios.map((item) => item.category))];
 function ProjectsPage() {

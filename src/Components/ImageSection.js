@@ -1,5 +1,6 @@
 import React from "react";
 import about from "../img/weezer-me.jpg";
+import { Link } from "react-router-dom";
 
 function ImageSection() {
   return (
@@ -34,7 +35,11 @@ function ImageSection() {
             <p>: United States</p>
           </div>
         </div>
-        <button className="btn">Download Resume</button>
+        <button className="btn">
+          <Link to="../data/richard-estes-resume.pdf" target="_blank" download className="btn-text">
+            Download Resume
+          </Link>
+        </button>
       </div>
     </div>
   );

@@ -65,6 +65,16 @@
   &:hover::after {
     width: 100%;
   }
+  .btn-text {
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 500;
+  }
 }
 
 .skillContainer {
