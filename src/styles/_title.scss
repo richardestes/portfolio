@@ -5,6 +5,11 @@
   position: relative;
   padding-bottom: 1rem;
   letter-spacing: 3px;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
   &::before {
     content: "";
     bottom: 0;
