@@ -10,7 +10,7 @@ function ProjectsPage() {
   const [menuItems, setMenuItems] = useState(portfolios);
 
   useEffect(() => {
-    setCategories(portfolios);
+    setCategories(allCategories);
   }, []);
 
   const filter = (category) => {
