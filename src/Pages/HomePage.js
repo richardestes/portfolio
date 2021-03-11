@@ -4,7 +4,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -15,19 +15,35 @@ function HomePage() {
           <span> Richard Estes</span>
         </h1>
         <p className="h-subtext">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium eum placeat incidunt, cupiditate natus mollitia
-          ullam voluptatum at, eaque quo inventore hic illum distinctio similique doloremque numquam quasi quos.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium eum placeat
+          incidunt, cupiditate natus mollitia ullam voluptatum at, eaque quo inventore hic illum
+          distinctio similique doloremque numquam quasi quos.
         </p>
         <div className="icons">
-          <Link className="icon-link">
+          <a
+            className="icon-link"
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-          </Link>
-          <Link className="icon-link">
+          </a>
+          <a
+            className="icon-link"
+            href="https://www.github.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
-          </Link>
-          <Link className="icon-link">
+          </a>
+          <a
+            className="icon-link"
+            href="https://www.youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faYoutube} className="icon yt" />
-          </Link>
+          </a>
         </div>
       </header>
     </div>
