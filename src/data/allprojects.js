@@ -10,7 +10,7 @@ const projects = [
     id: 1,
     category: "Vue",
     link1: "https://github.com/richardestes/spotify_vuejs",
-    link2: "www.spotifystats.io",
+    link2: "https://spotifystats.io/",
     icon1: "GitHub",
     icon2: "Demo",
     image: port1,
@@ -49,7 +49,7 @@ const projects = [
   {
     id: 5,
     category: "Python",
-    link1: "https://github.com/richardestes?tab=repositories",
+    link1: "https://github.com/richardestes/votebot",
     icon1: "GitHub",
     image: port6,
     title: "VoteBot",
