@@ -34,13 +34,9 @@ function AboutPage() {
         <ServicesSection
           image={intelligence}
           title={"Artificial Intelligence"}
-          text={"Lorem ipsum dolor sit amet consectetur, adipisicing elit."}
+          text={"Hello Gamer"}
         />
-        <ServicesSection
-          image={gamedev}
-          title={"Game Development"}
-          text={"Lorem ipsum dolor sit amet consectetur, adipisicing elit."}
-        />
+        <ServicesSection image={gamedev} title={"Game Development"} text={"How are you"} />
       </div>
     </div>
   );
