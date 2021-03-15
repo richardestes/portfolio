@@ -8,6 +8,7 @@ function NavBar() {
       <nav className="nav">
         <div className="profile">
           <img src={avatar} alt="" />
+          <h4>Richard Estes</h4>
         </div>
         <ul className="nav-items">
           <li className="nav-item">
