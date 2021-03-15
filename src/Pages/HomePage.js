@@ -1,10 +1,9 @@
 import React from "react";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faDribbbleSquare } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -15,19 +14,35 @@ function HomePage() {
           <span> Richard Estes</span>
         </h1>
         <p className="h-subtext">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium eum placeat incidunt, cupiditate natus mollitia
-          ullam voluptatum at, eaque quo inventore hic illum distinctio similique doloremque numquam quasi quos.
+          I'm a full-stack software developer who also loves UI/UX design. Currently, I'm working at
+          as a Software Engineer at LinkMunch. Feel free to check out my projects here or on my
+          GitHub!
         </p>
         <div className="icons">
-          <Link className="icon-link">
-            <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-          </Link>
-          <Link className="icon-link">
+          <a
+            className="icon-link"
+            target="_blank"
+            href="https://www.linkedin.com/in/richardaestes97/"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} className="icon lk" />
+          </a>
+          <a
+            className="icon-link"
+            target="_blank"
+            href="https://github.com/richardestes/"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} className="icon gh" />
-          </Link>
-          <Link className="icon-link">
-            <FontAwesomeIcon icon={faYoutube} className="icon yt" />
-          </Link>
+          </a>
+          <a
+            className="icon-link"
+            target="_blank"
+            href="https://dribbble.com/richardestes"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faDribbbleSquare} className="icon db" />
+          </a>
         </div>
       </header>
     </div>

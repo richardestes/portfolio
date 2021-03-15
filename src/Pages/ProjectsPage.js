@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import Title from "../Components/Title";
 import Categories from "../Components/Categories";
 import MenuItems from "../Components/MenuItems";
-import portfolios from "../data/allportfolios";
+import projects from "../data/allprojects";
 
-const allCategories = ["All", ...new Set(portfolios.map((item) => item.category))];
+const allCategories = ["All", ...new Set(projects.map((item) => item.category))];
 function ProjectsPage() {
   const [categories, setCategories] = useState(allCategories);
-  const [menuItems, setMenuItems] = useState(portfolios);
+  const [menuItems, setMenuItems] = useState(projects);
 
   useEffect(() => {
     setCategories(allCategories);
@@ -15,10 +15,10 @@ function ProjectsPage() {
 
   const filter = (category) => {
     if (category === "All") {
-      setMenuItems(portfolios);
+      setMenuItems(projects);
       return;
     }
-    const filteredData = portfolios.filter((item) => {
+    const filteredData = projects.filter((item) => {
       return item.category === category;
     });
     setMenuItems(filteredData);

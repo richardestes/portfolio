@@ -1,5 +1,4 @@
 import React from "react";
-
 function MenuItems({ menuItems }) {
   return (
     <div className="projects">
@@ -11,7 +10,7 @@ function MenuItems({ menuItems }) {
               <ul className="hover-items">
                 <li>
                   <a href={item.link1}>{item.icon1}</a>
-                  <a href={item.link2}>{item.icon2}</a>
+                  {item.icon2 ? <a href={item.link2}>{item.icon2}</a> : ""}
                 </li>
               </ul>
             </div>
