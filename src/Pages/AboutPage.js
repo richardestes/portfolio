@@ -4,7 +4,7 @@ import ImageSection from "../Components/ImageSection";
 import SkillsSection from "../Components/SkillsSection";
 import ServicesSection from "../Components/ServicesSection";
 import design from "../img/design.svg";
-import intelligence from "../img/intelligence.svg";
+import uiuxdesign from "../img/uiuxdesign.svg";
 import gamedev from "../img/game-dev.svg";
 
 function AboutPage() {
@@ -32,11 +32,11 @@ function AboutPage() {
           text={"Lorem ipsum dolor sit amet consectetur, adipisicing elit."}
         />
         <ServicesSection
-          image={intelligence}
-          title={"Artificial Intelligence"}
-          text={"Hello Gamer"}
+          image={uiuxdesign}
+          title={"UI/UX Design"}
+          text={"Adobe XD, Illustrator, Photoshop, Figma"}
         />
-        <ServicesSection image={gamedev} title={"Game Development"} text={"How are you"} />
+        <ServicesSection image={gamedev} title={"Raspberry Pi Projects"} text={"How are you"} />
       </div>
     </div>
   );
