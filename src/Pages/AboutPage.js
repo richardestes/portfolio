@@ -5,7 +5,7 @@ import SkillsSection from "../Components/SkillsSection";
 import ServicesSection from "../Components/ServicesSection";
 import design from "../img/design.svg";
 import uiuxdesign from "../img/uiuxdesign.svg";
-import gamedev from "../img/game-dev.svg";
+import raspberry from "../img/raspberry.svg";
 
 function AboutPage() {
   return (
@@ -29,14 +29,20 @@ function AboutPage() {
         <ServicesSection
           image={design}
           title={"Web Design"}
-          text={"Lorem ipsum dolor sit amet consectetur, adipisicing elit."}
+          text={
+            "Frontend technologies: React, Vue, HTML5, CSS/SASS. Backend technologies: AWS, Firebase, RESTful APIs"
+          }
         />
         <ServicesSection
           image={uiuxdesign}
           title={"UI/UX Design"}
           text={"Adobe XD, Illustrator, Photoshop, Figma"}
         />
-        <ServicesSection image={gamedev} title={"Raspberry Pi Projects"} text={"How are you"} />
+        <ServicesSection
+          image={raspberry}
+          title={"Raspberry Pi Projects"}
+          text={"CPU/GPU Monitor, Custom DNS Server, API Button"}
+        />
       </div>
     </div>
   );
