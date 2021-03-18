@@ -25,20 +25,10 @@ function ContactPage() {
           ></iframe>
         </div>
         <div className="contact-section">
+          <ContactItem title={"Phone"} icon={phone} text1={"9514429287"} />
+          <ContactItem title={"Email"} icon={emailme} text1={"richard.estes48@gmail.com"} />
           <ContactItem
-            title={"Phone"}
-            icon={phone}
-            text1={"+19095551234"}
-            text2={"+033 678 1111"}
-          />
-          <ContactItem
-            title={"Email"}
-            icon={emailme}
-            text1={"loremipsum@gmail.com"}
-            text2={"loremipsum3@gmail.com"}
-          />
-          <ContactItem
-            title={"Address"}
+            title={"Location"}
             icon={location}
             text1={"Costa Mesa"}
             text2={"California"}
