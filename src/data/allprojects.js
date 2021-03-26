@@ -12,9 +12,10 @@ const projects = [
     link1: "https://github.com/richardestes/movie-watchlist",
     link2: "https://vigorous-gates-6862c0.netlify.app/",
     icon1: "GitHub",
-    link2: "Demo",
+    icon2: "Demo",
     image: port3,
     title: "Movie Watchlist",
+    description: "Search and add movies to a watchlist. Uses Context API",
   },
   {
     id: 2,
@@ -25,6 +26,7 @@ const projects = [
     icon2: "Demo",
     image: port1,
     title: "SpotifyStats PoC",
+    description: "",
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ const projects = [
     icon2: "Demo",
     image: port2,
     title: "Pokedex",
+    description: "",
   },
   {
     id: 4,
@@ -45,6 +48,7 @@ const projects = [
     icon2: "Demo",
     image: port3,
     title: "Google Drive Clone",
+    description: "",
   },
   {
     id: 5,
@@ -55,6 +59,7 @@ const projects = [
     icon2: "Demo",
     image: port4,
     title: "COVID Tracker",
+    description: "",
   },
   {
     id: 6,
@@ -63,6 +68,7 @@ const projects = [
     icon1: "GitHub",
     image: port6,
     title: "VoteBot",
+    description: "",
   },
   {
     id: 7,
@@ -71,6 +77,7 @@ const projects = [
     icon1: "GitHub",
     image: port7,
     title: "Drone Dashboard",
+    description: "",
   },
   {
     id: 8,
@@ -79,6 +86,7 @@ const projects = [
     icon1: "GitHub",
     image: port4,
     title: "Portfolio Site",
+    description: "",
   },
   {
     id: 9,
@@ -87,6 +95,7 @@ const projects = [
     icon1: "GitHub",
     image: port4,
     title: "Sentiment Analysis",
+    description: "",
   },
 ];
 
