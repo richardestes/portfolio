@@ -8,6 +8,16 @@ import port7 from "../img/portImages/port6.jpg";
 const projects = [
   {
     id: 1,
+    category: "React",
+    link1: "https://github.com/richardestes/movie-watchlist",
+    link2: "https://vigorous-gates-6862c0.netlify.app/",
+    icon1: "GitHub",
+    link2: "Demo",
+    image: port3,
+    title: "Movie Watchlist",
+  },
+  {
+    id: 2,
     category: "Vue",
     link1: "https://github.com/richardestes/spotify_vuejs",
     link2: "https://spotifystats.io/",
@@ -17,7 +27,7 @@ const projects = [
     title: "SpotifyStats PoC",
   },
   {
-    id: 2,
+    id: 3,
     category: "React",
     link1: "https://github.com/richardestes/react-pokedex",
     link2: "https://fervent-raman-331cce.netlify.app/",
@@ -27,7 +37,7 @@ const projects = [
     title: "Pokedex",
   },
   {
-    id: 3,
+    id: 4,
     category: "React",
     link1: "https://github.com/richardestes/google-drive-clone",
     link2: "https://elated-euler-92a960.netlify.app/",
@@ -37,7 +47,7 @@ const projects = [
     title: "Google Drive Clone",
   },
   {
-    id: 4,
+    id: 5,
     category: "React",
     link1: "https://github.com/richardestes/covid-tracker",
     link2: "https://covid-tracker-6cdd6.web.app/",
@@ -47,7 +57,7 @@ const projects = [
     title: "COVID Tracker",
   },
   {
-    id: 5,
+    id: 6,
     category: "Python",
     link1: "https://github.com/richardestes/votebot",
     icon1: "GitHub",
@@ -55,7 +65,7 @@ const projects = [
     title: "VoteBot",
   },
   {
-    id: 6,
+    id: 7,
     category: "React",
     link1: "https://github.com/richardestes/react-drone-dashboard",
     icon1: "GitHub",
@@ -63,7 +73,7 @@ const projects = [
     title: "Drone Dashboard",
   },
   {
-    id: 7,
+    id: 8,
     category: "React",
     link1: "https://github.com/richardestes/portfolio",
     icon1: "GitHub",
@@ -71,7 +81,7 @@ const projects = [
     title: "Portfolio Site",
   },
   {
-    id: 8,
+    id: 9,
     category: "Python",
     link1: "https://github.com/richardestes/covid-comfort-bot",
     icon1: "GitHub",
